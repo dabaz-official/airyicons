@@ -5,7 +5,7 @@ export default function Masthead() {
         <div className="mt-6 text-[1.75rem] font-extrabold leading-9 tracking-tight text-slate-900 md:text-4xl">
           Beautiful handmade icons
         </div>
-        <div className="mt-6 text-lg font-medium text-center flex items-center justify-center gap-4 text-violet-700">
+        <div className="mt-6 text-lg font-medium text-center flex items-center justify-center gap-4 text-blue-600">
           10 icons / 100% Handmade
         </div>
       </div>

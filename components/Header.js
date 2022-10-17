@@ -4,7 +4,7 @@ export default function Header() {
       <div className="relative z-10 flex items-center justify-between basis-0">
         <a aria-label="Home page" href="/" className="flex items-center">
           <img 
-            src="/logos/logo-violet-600.svg" 
+            src="/logos/logo-blue-600.svg" 
             alt="Airyicons"
             className="h-8 w-8"
           />

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+import Icons from '../components/Icons'
 import Masthead from '../components/Masthead'
 
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Airyicons</title>
-        <link rel="icon" href="/logos/logo-violet-600.svg" />
+        <link rel="icon" href="/logos/logo-blue-600.svg" />
       </Head>
 
       <div className="relative overflow-hidden bg-slate-50 py-6">
@@ -17,7 +18,7 @@ export default function Home() {
 
           <Masthead />
 
-          
+          <Icons />
 
           <Footer />
         </div>
