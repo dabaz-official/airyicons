@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 flex flex-wrap items-center justify-between bg-white px-4 py-5 shadow-md shadow-slate-900/5 transition duration-500 dark:shadow-none sm:px-6 lg:px-8 dark:bg-transparent">
+    <header className="sticky top-0 z-50 flex flex-wrap items-center justify-between bg-slate-50 px-4 py-5 shadow-md shadow-slate-900/5 transition duration-500 dark:shadow-none sm:px-6 lg:px-8 dark:bg-transparent">
       <div className="relative flex flex-grow basis-0 items-center">
         <a aria-label="Home page" href="/" className="flex items-center">
           <img 
