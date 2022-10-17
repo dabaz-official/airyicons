@@ -12,15 +12,17 @@ export default function Home() {
         <link rel="icon" href="/logos/logo-blue-600.svg" />
       </Head>
 
-      <div className="relative overflow-hidden bg-slate-50 py-6">
-        <div className="mx-auto px-4 sm:px-6 lg:px-8 relative">
+      <div className="relative overflow-hidden">
+        <div className="mx-auto px-4 py-6 sm:px-6 lg:px-8 relative bg-[url('/images/masthead-bg.png')] bg-cover">
           <Header />
 
           <Masthead />
-
-          <IconsList />
-
-          <Footer />
+        </div>
+        <div className="border-t">
+          <div className="bg-white mx-auto px-4 sm:px-6 lg:px-8 relative my-8">
+            <IconsList />
+            <Footer />
+          </div>
         </div>
       </div>
     </div>
