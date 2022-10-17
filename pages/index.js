@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Masthead from '../components/Masthead'
 
@@ -15,7 +16,11 @@ export default function Home() {
           <Header />
 
           <Masthead />
+
+          <Footer />
         </div>
+
+        
       </div>
     </div>
   )
