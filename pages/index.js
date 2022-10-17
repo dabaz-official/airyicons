@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Header from '../components/Header'
+import Masthead from '../components/Masthead'
 
 export default function Home() {
   return (
@@ -9,8 +10,12 @@ export default function Home() {
         <link rel="icon" href="/logos/logo-violet-600.svg" />
       </Head>
 
-      <div className="relative overflow-hidden bg-slate-50 pt-6">
-        <Header />
+      <div className="relative overflow-hidden bg-slate-50 py-6">
+        <div className="mx-auto px-4 sm:px-6 lg:px-8 relative">
+          <Header />
+
+          <Masthead />
+        </div>
       </div>
     </div>
   )
