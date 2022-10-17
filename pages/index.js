@@ -9,7 +9,9 @@ export default function Home() {
         <link rel="icon" href="/logos/logo-violet-600.svg" />
       </Head>
 
-      <Header />
+      <div className="relative overflow-hidden bg-slate-50 pt-6">
+        <Header />
+      </div>
     </div>
   )
 }
