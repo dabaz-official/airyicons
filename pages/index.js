@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
-import Icons from '../components/Icons'
+import IconsList from '../components/IconsList'
 import Masthead from '../components/Masthead'
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
 
           <Masthead />
 
-          <Icons />
+          <IconsList />
 
           <Footer />
         </div>
